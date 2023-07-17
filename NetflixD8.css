@@ -1,0 +1,219 @@
+
+* {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+
+
+
+      /*      Navbar    */
+
+@media only screen and (min-width: 992px) {
+    nav {
+        position: sticky;
+        top: 0;
+        transition: 0,5s;
+        z-index: 4;
+       
+    }
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    
+}
+.account-menu {
+    width: 30px;
+    height: 30px;
+}
+
+.bianco .nav-item a {
+    color: #f3f3f3;
+}
+.bianco .nav-item:first-of-type a {
+    color: #f3f3f3;
+}
+
+
+
+button.navbar-toggler{
+    background-color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (max-width: 500px) {
+    .right-side{
+        position: absolute;
+        top: 55px;
+        right: 20px;
+    }
+} */
+   
+
+
+
+
+
+
+      /*       Header      */
+
+
+
+.box-genres {
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+}
+
+.header-title {
+    display: flex;
+    align-content: center;
+    padding: 1rem;
+    margin: 0;
+}
+.header-title .title  h1 {
+    color: #f3f3f3;
+}
+h2 {
+    color: #f3f3f3;
+}
+.icon-header {
+    width: 20px;
+    transition:0.4s ease-in-out ;
+}
+.icon-header:hover {
+    rotate: 1.75turn;
+}
+
+.line1 {
+    background-color: #f3f3f3;
+    width: 2px;
+    height: 2px;
+    color: #f3f3f3;
+    
+}
+.box-header {
+    border: 2px solid aliceblue;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-location {
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+    }
+}
+
+h1 {
+    
+    -webkit-transition: background-color 2s ease-out;
+  
+  transition: background-color 2s ease-out;
+}
+h1:hover {
+    background-color: black;
+    
+}
+
+
+
+
+/*         Main     */
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.carousel-item .col-6:hover ~ .col-6 img {
+    transform: translateX(15.5%);
+    
+}
+
+.carousel-item .col-6:hover img   {
+    
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+.col-6 img {
+    transition: 0.4s ease-out;
+
+    cursor: pointer;
+}
+
+
+
+/*       Footer        */
+li {
+    list-style: none;
+}
+
+footer  a  {
+    color: gray
+}
+
+.icons-head a {
+    font-size: 25px
+}
+
+.icons-head {
+    display: flex;
+    margin-left: 1.8rem;
+}
+
+.icons-head li {
+    padding: 0.3rem;
+}
+.icons-head a ion-icon {
+    transition: 0.6s ease-in-out;
+}
+.icons-head a ion-icon:hover {
+    rotate: 360deg;
+    scale: 1.25;
+}
+
+.text-footer li a {
+    text-decoration: none;
+}
+.text-footer ul {
+    padding: 0;
+}
+header {
+    position: relative;
+}
+
+
+@media only screen and (max-width: 600px) {
+   footer  {
+    position: relative;    
+   }
+   .side-1 {
+    position: absolute;
+    top: 164px;
+    left: 200px;
+
+   }
+   .side-2 {
+    position: absolute;
+    top: 53px;
+    left: 200px;
+   }
+   body {
+    overflow-x: hidden;
+   }
+}
+
+
+
